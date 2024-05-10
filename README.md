@@ -15,15 +15,6 @@ For development, you will need `Node.js v20.x (recommended)`, a node global pack
 
 Node.js (lts)
 
-#### Check Node Version
-
-Check version with this command, node -v
-Node version should be v18 or v18+
-
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
-
-`npm install npm -g`
-
 ## Features
 
 Features included are:
@@ -55,7 +46,7 @@ At the root directory of the application, run the following command to install p
 
 `npm install`
 
-### Configure app
+### Configure App
 
 Add `.env` file at root of the project. Sample values available in `.env.example` file.
 
@@ -67,7 +58,7 @@ Start running a project with the following command:
 
 ### Port
 
-This backend would run on port `8080`, if you provide PORT `8080` in .env file.
+This backend would run on port `8080`, if you provide PORT `8080` in `.env` file.
 
 The required PORT can be added in the `.env` file.
 
